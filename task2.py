@@ -1,5 +1,5 @@
 # TEST DATA - Do not modify
-account_holder = "Taylor Banks"
+account_holder = Taylor Banks
 starting_balance = 487
 withdrawal_amount = 120
 atm_fee = 3
@@ -25,7 +25,7 @@ full_twenties = balance // 20
 remaining_dollars = balance % 20
 
 # Display results with f-strings
-print(f"Account Holder: {account_holder}")
+print(f"Account Holder:n{account_holder}")
 print(f"Remaning Balanec: {balance}")
 print(f"Full $20 Bills: {full_twenties}")
 print(f"Remaning Dollars: {remaining_dollars}")
